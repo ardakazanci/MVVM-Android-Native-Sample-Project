@@ -1,10 +1,12 @@
 package com.ardakazanci.androidmvvmsampleproject.utils
 
 /**
- * Ağ Çağrısının geçerli durumunu UI Katmanına iletmekten sorumlu olacak bir enum sınıfı.
+ * UI Durumunu temsil eden Enum Class
  */
 enum class Status {
 
-
+    SUCCESS,
+    LOADING,
+    ERROR
 
 }
